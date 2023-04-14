@@ -9,7 +9,7 @@ to reach the target in the hash table, giving us a O(n) solution.
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        hash_map = {};
+        hash_table = {};
         for i in range(len(nums)):
             n = target - nums[i]
             if n not in hash_table:
